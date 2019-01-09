@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+
+*{
+	padding: 0;
+	margin:0;
+}
+
+body
+{
+	background-color: black;
+	background-image: url("../img/grain.png"), radial-gradient(550px at 50% -30%, #444, #000);
+	background-repeat: repeat, no-repeat;
+	color: white;
+	font-family: 'PT Sans', sans-serif;
+}
+
+header{
+	height: 250px;
+	/*background-image: radial-gradient(550px at 50% -120%, #555, #000);*/
+}
+
+.container{
+	width: 960px;
+	margin: 0 auto;
+}
+
+.d-flex{
+	display: flex;
+}
+
+.d-block{
+	display: block;
+}
+
+.justify-content-center{
+	display: flex;
+	justify-content: center;
+}
+
+.align-items-center{
+	display: flex;
+	align-items: center;
+}
+
+main{
+	text-align: center;
+}
+
+main .h1s{
+	margin-top: 1rem;
+}
+
+main h1{
+	text-transform: uppercase;
+	font-size: 3rem;
+	margin-top: -1rem;
+}
+
+main p{
+	color: #939393;
+	margin-bottom: 0.2rem;
+}
+
+main .ps{
+	margin-top: 1rem;
+}
+
+main .form{
+	margin-top: 5rem;
+	position: relative;
+}
+
+main .form label{
+	font-size: 1.5rem;
+	margin-bottom: 0.3rem;
+	display: block;
+}
+
+main .form input[type="email"]{
+	width: 20rem;
+	height: 2rem;
+	outline: none;
+	font-size: 2rem;
+}
+
+main .form button{
+	width: 2.2rem;
+	height: 2.2rem;
+	border: none;
+	background-color: #f3bc5d;
+	color: white;
+	font-size: 1.2rem;
+	outline-color: orange;
+
+	position: absolute;
+	top: 40%;
+	right: 33%;
+}
+
+main .form small{
+	color: #525252;
+}
+
+footer{
+	padding: 5rem;
+}
+
+footer i{
+	color: #525252;
+	font-size: 2.5rem;
+	margin: 1rem;
+}
